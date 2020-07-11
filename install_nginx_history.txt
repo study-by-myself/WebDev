@@ -1,0 +1,41 @@
+    1  apt-get upgrade
+    2  apt upgrade
+    3  apt update
+    4  apt-get install nginx
+    5  nginx -v
+    6  service nginx start
+    7  nginx -t
+    8  #
+    9  #
+   10  ls
+   11  grep nginx.conf
+   12  find / -name nginx.conf
+   13  cd /etc/nginx/nginx.conf 
+   14  cd /etc/nginx/
+   15  cd
+   16  vim /etc/nginx/nginx.conf 
+   17  apt-get install vim
+   18  apt-get install vim
+   19  vim /etc/nginx/nginx.conf 
+   20  ip
+   21  ip config
+   22  ipconfig
+   23  vim /etc/nginx/nginx.conf 
+   24  cd /etc/nginx/sites-enabled/
+   25  ls
+   26  vim default 
+   27  cd /var/www/html
+   28  ls
+   29  vim index.nginx-debian.html 
+   30  cp index.nginx-debian.html index.html
+   31  vim index.html 
+   32  history
+   33  history > install_nginx_history.txt
+   34  ls
+   35  git init
+   36  apt-get install git
+   37  git init
+   38  ls
+   39  git remote add origin https://github.com/blingblin-g/WebDev.git
+   40  rm install_nginx_history.txt 
+   41  history > intall_nginx_history.txt
