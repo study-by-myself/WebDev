@@ -1,0 +1,173 @@
+body {
+    background-color: black;
+    color: white;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>🎮</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: black;
+    border-bottom: 3px solid cadetblue;
+    padding-bottom: 10px;
+}
+
+header #logo {
+    display: flex; /* 가로 일렬로 정렬 */
+    align-items: center; /* 상하 정렬 */
+    justify-content: center; /* 좌우 정렬 */
+    max-width: 800px; /* 가로 최댓값 */
+}
+
+#logo {
+    /* background-color: cadetblue; */
+    margin-top: 50px;
+}
+
+#logo-insert-coin {
+    width: 80%;
+    height: 100%;
+}
+
+#logo-x {
+    margin: 0 7px;
+}
+
+#logo-42seoul {
+    width: 15%;
+    height: 100%;
+}
+
+#icon-menu {
+    display: none;
+    width: 25px;
+    height: 25px;
+    border: 1px solid lightcyan;
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    border-radius: 5px;
+}
+
+#icon-menu > div {
+    border: 1px solid lightcyan;
+    margin: 5px 3px;
+    border-radius: 5px;
+}
+
+img {
+    width: 100%;
+}
+
+section#slide {
+    max-width: 1024px;
+    position: relative;
+}
+
+.slide-images {
+    border-bottom: 3px solid cadetblue;
+    height: 40%;
+}
+
+.button {
+    background-color: black;
+    color: cadetblue;
+    background: black;
+    font-size: 30px;
+    width: 25px;
+    height: 100%;
+    position: absolute;
+    opacity: 50%;
+    top: 0;
+}
+
+.button-left {
+}
+
+.button-right {
+    right: 0;
+}
+
+h2 {
+    color: cadetblue;
+    margin-bottom: 0px;
+}
+
+hr {
+    border-color: aquamarine;
+    /* border로 바꾸고 pixel 늘릴 것 */
+}
+
+section  {
+    max-width: 1024px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.board-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.board {
+    width: 46%
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.title {
+    flex: 1;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 80%;
+}
+
+.title:hover {
+    color: cadetblue;
+    transition: text-indent 10s;
+    text-indent: -500px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    
+}
+
+.tooltip .tooltip-content {
+    visibility: hidden;
+    padding: 0;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 105%;
+}
+.tooltip:hover .tooltip-content { visibility: visible; }
+
+.date {
+    position: absolute;
+    right: 0;
+    color: grey;
+}
+
+h4 {
+    color: cadetblue;
+}
+
+footer {
+    text-align: center;
+}
