@@ -1,417 +1,609 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Insert(coin)::42GameDevClub</title>
-    <link rel="stylesheet" href="./styles/style.css">
-    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
     <header>
-        <div id="icon-menu">
-            <div></div>
-            <div></div>
-            <div></div>
+      <div id="icon-menu">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div id="logo">
+        <div id="logo-insert-coin">
+          <img src="./images/real_logo.png" />
         </div>
-        <div id="logo">
-            <div id="logo-insert-coin">
-                <img src="./images/real_logo.png">
-            </div>
-            <p id="logo-x">  X  </p>
-            <div id="logo-42seoul"><img src="./images/42seoul.png"></div>
-        </div>
+        <p id="logo-x">X</p>
+        <div id="logo-42seoul"><img src="./images/42seoul.png" /></div>
+      </div>
     </header>
     <section id="slide">
-        <div class="slide-images">
-            <img class="slide-image" src="./images/42surviving.png">
-            <img class="slide-image" src="./images/piscine.png">
-        </div>
-        <div class="slide-buttons">
-            <button class="button button-left" onclick="plusDivs(-1)">&#10094;</button>
-            <button class="button button-right" onclick="plusDivs(1)">&#10095;</button>
-        </div>
+      <div class="slide-images">
+        <img class="slide-image" src="./images/42surviving.png" />
+        <img class="slide-image" src="./images/piscine.png" />
+      </div>
+      <div class="slide-buttons">
+        <button class="button button-left" onclick="plusDivs(-1)">
+          &#10094;
+        </button>
+        <button class="button button-right" onclick="plusDivs(1)">
+          &#10095;
+        </button>
+      </div>
     </section>
     <section id="content">
-        <div class="board-wrap">
-            <div id="notice" class="board"> 
-                <h2> 
-                    <i class="em em-studio_microphone" aria-role="presentation" aria-label=""></i>
-                    NOTICE 
-                    <i class="em em-studio_microphone" aria-role="presentation" aria-label=""></i>
-                </h2>
-                <hr>
-                <div class="board-list">
-                    <ol>
-                        <li> 
-                            <div class="tooltip">
-                                <div class="tooltip-content">
-                                    <i class="em em-sparkles" aria-role="presentation" aria-label="SPARKLES"></i>
-                                </div>
-                                <div class="title">첫번째 공지: seonpark 메롱메dfqwefefewjfkdjflkjelfjlkewjlkjfelkjflkejwlkfjewlkjflwkejflkewjflkewjfljwlkfjwelkjwljfwlkjlkjrekrerjlekjrlejrlkejrlejrljelrejlrjelrjeljrlejlejrlkejrljelkrjelkjrlkjljweqlkqfj롱!!</div>
-                                <span class="date">2020-08-30</span>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="tooltip">
-                                <div class="tooltip-content">
-                                    <i class="em em-sparkles" aria-role="presentation" aria-label="SPARKLES"></i>
-                                </div>
-                            <span class="title">두번째 공지: seonpark 메롱메롱!!</span>
-                            </div>
-                            <span class="date">2020-08-30</span>
-                        </li>
-                        <li>
-                            <div class="tooltip">
-                                <div class="tooltip-content">
-                                    <i class="em em-sparkles" aria-role="presentation" aria-label="SPARKLES"></i>
-                                </div>
-                            <span class="title">세번째 공지: seonpark 메롱메롱!!</span>
-                            </div>
-                            <span class="date">2020-08-30</span>
-                        </li>
-                        <li>
-                            <div class="tooltip">
-                                <div class="tooltip-content">
-                                    <i class="em em-sparkles" aria-role="presentation" aria-label="SPARKLES"></i>
-                                </div>
-                            <span class="title">네번째 공지: seonpark 메롱메롱!!</span>
-                            </div>
-                            <span class="date">2020-08-30</span>
-                        </li>
-                        <li>
-                            <div class="tooltip">
-                                <div class="tooltip-content">
-                                    <i class="em em-sparkles" aria-role="presentation" aria-label="SPARKLES"></i>
-                                </div>
-                            <span class="title">다섯번째 공지: seonpark 메롱메롱!!</span>
-                            </div>
-                            <span class="date">2020-08-30</span>
-                        </li>
-                    </ol>
-                </div>
-            </div>
-
-            <div id="proposal" class="board">
-                <h2>
-                    <i class="em em-scroll" aria-role="presentation" aria-label="SCROLL"></i>
-                    PROPOSAL
-                    <i class="em em-scroll" aria-role="presentation" aria-label="SCROLL"></i>
-                </h2>
-                <hr>
-                <div class="board-list">
-                    <ol>
-                        <li> 
-                            <div class="tooltip">
-                                <div class="tooltip-content">
-                                    <i class="em em-sparkles" aria-role="presentation" aria-label="SPARKLES"></i>
-                                </div>
-                                <span class="title">첫번째 공지: seonpark 메롱메롱!!</span>
-                            </div>
-                            <span class="date">2020-08-30</span>
-                        </li>
-                        <li>
-                            <div class="tooltip">
-                                <div class="tooltip-content">
-                                    <i class="em em-sparkles" aria-role="presentation" aria-label="SPARKLES"></i>
-                                </div>
-                            <span class="title">두번째 공지: seonpark 메롱메롱!!</span>
-                            </div>
-                            <span class="date">2020-08-30</span>
-                        </li>
-                        <li>
-                            <div class="tooltip">
-                                <div class="tooltip-content">
-                                    <i class="em em-sparkles" aria-role="presentation" aria-label="SPARKLES"></i>
-                                </div>
-                            <span class="title">세번째 공지: seonpark 메롱메롱!!</span>
-                            </div>
-                            <span class="date">2020-08-30</span>
-                        </li>
-                        <li>
-                            <div class="tooltip">
-                                <div class="tooltip-content">
-                                    <i class="em em-sparkles" aria-role="presentation" aria-label="SPARKLES"></i>
-                                </div>
-                            <span class="title">네번째 공지: seonpark 메롱메롱!!</span>
-                            </div>
-                            <span class="date">2020-08-30</span>
-                        </li>
-                        <li>
-                            <div class="tooltip">
-                                <div class="tooltip-content">
-                                    <i class="em em-sparkles" aria-role="presentation" aria-label="SPARKLES"></i>
-                                </div>
-                            <span class="title">다섯번째 공dsfddfwfewfewfefewe지: seonpark 메롱메롱!!</span>
-                            </div>
-                            <span class="date">2020-08-30</span>
-                        </li>
-                    </ol>
-                </div>
-            </div>
+      <div class="board-wrap">
+        <div id="notice" class="board">
+          <h2>
+            <i
+              class="em em-studio_microphone"
+              aria-role="presentation"
+              aria-label=""
+            ></i>
+            NOTICE
+            <i
+              class="em em-studio_microphone"
+              aria-role="presentation"
+              aria-label=""
+            ></i>
+          </h2>
+          <hr />
+          <ol class="board-list">
+            <li>
+              <div class="tooltip">
+                <i
+                  class="em em-sparkles"
+                  aria-role="presentation"
+                  aria-label="SPARKLES"
+                ></i>
+              </div>
+              <div class="content">
+                <p class="title">
+                  첫번째 공지: seonpark
+                  메롱메dfqwefefewjfkdjflkjelfjlkewjlkjfelkjflkejwlkfjewlkjflwkejflkewjflkewjfljwlkfjwelkjwljfwlkjlkjrekrerjlekjrlejrlkejrlejrljelrejlrjelrjeljrlejlejrlkejrljelkrjelkjrlkjljweqlkqfj롱!!
+                </p>
+                <span class="date">2020-08-30</span>
+              </div>
+            </li>
+            <li>
+              <div class="tooltip">
+                <i
+                  class="em em-sparkles"
+                  aria-role="presentation"
+                  aria-label="SPARKLES"
+                ></i>
+              </div>
+              <div class="content">
+                <p class="title">
+                  첫번째 공지: seonpark
+                  메롱메dfqwefefewjfkdjflkjelfjlkewjlkjfelkjflkejwlkfjewlkjflwkejflkewjflkewjfljwlkfjwelkjwljfwlkjlkjrekrerjlekjrlejrlkejrlejrljelrejlrjelrjeljrlejlejrlkejrljelkrjelkjrlkjljweqlkqfj롱!!
+                </p>
+                <span class="date">2020-08-30</span>
+              </div>
+            </li>
+            <li>
+              <div class="tooltip">
+                <i
+                  class="em em-sparkles"
+                  aria-role="presentation"
+                  aria-label="SPARKLES"
+                ></i>
+              </div>
+              <div class="content">
+                <p class="title">
+                  첫번째 공지: seonpark
+                  메롱메dfqwefefewjfkdjflkjelfjlkewjlkjfelkjflkejwlkfjewlkjflwkejflkewjflkewjfljwlkfjwelkjwljfwlkjlkjrekrerjlekjrlejrlkejrlejrljelrejlrjelrjeljrlejlejrlkejrljelkrjelkjrlkjljweqlkqfj롱!!
+                </p>
+                <span class="date">2020-08-30</span>
+              </div>
+            </li>
+            <li>
+              <div class="tooltip">
+                <i
+                  class="em em-sparkles"
+                  aria-role="presentation"
+                  aria-label="SPARKLES"
+                ></i>
+              </div>
+              <div class="content">
+                <p class="title">
+                  첫번째 공지: seonpark
+                  메롱메dfqwefefewjfkdjflkjelfjlkewjlkjfelkjflkejwlkfjewlkjflwkejflkewjflkewjfljwlkfjwelkjwljfwlkjlkjrekrerjlekjrlejrlkejrlejrljelrejlrjelrjeljrlejlejrlkejrljelkrjelkjrlkjljweqlkqfj롱!!
+                </p>
+                <span class="date">2020-08-30</span>
+              </div>
+            </li>
+            <li>
+              <div class="tooltip">
+                <i
+                  class="em em-sparkles"
+                  aria-role="presentation"
+                  aria-label="SPARKLES"
+                ></i>
+              </div>
+              <div class="content">
+                <p class="title">
+                  첫번째 공지: seonpark
+                  메롱메dfqwefefewjfkdjflkjelfjlkewjlkjfelkjflkejwlkfjewlkjflwkejflkewjflkewjfljwlkfjwelkjwljfwlkjlkjrekrerjlekjrlejrlkejrlejrljelrejlrjelrjeljrlejlejrlkejrljelkrjelkjrlkjljweqlkqfj롱!!
+                </p>
+                <span class="date">2020-08-30</span>
+              </div>
+            </li>
+          </ol>
         </div>
 
-        <div class="board-wrap">
-            <div id="game" class="board">
-                <h2>
-                    <i class="em em-joystick" aria-role="presentation" aria-label=""></i>
-                    GAME
-                    <i class="em em-joystick" aria-role="presentation" aria-label=""></i>
-                </h2>
-                <hr>
-                <div class="board-list">
-                    <ol>
-                        <li> 
-                            <div class="tooltip">
-                                <div class="tooltip-content">
-                                    <i class="em em-sparkles" aria-role="presentation" aria-label="SPARKLES"></i>
-                                </div>
-                                <span class="title">첫번째 공지: seonpark 메롱메롱!!</span>
-                            </div>
-                            <span class="date">2020-08-30</span>
-                        </li>
-                        <li>
-                            <div class="tooltip">
-                                <div class="tooltip-content">
-                                    <i class="em em-sparkles" aria-role="presentation" aria-label="SPARKLES"></i>
-                                </div>
-                            <span class="title">두번째 공지: seonpark 메롱메롱!!</span>
-                            </div>
-                            <span class="date">2020-08-30</span>
-                        </li>
-                        <li>
-                            <div class="tooltip">
-                                <div class="tooltip-content">
-                                    <i class="em em-sparkles" aria-role="presentation" aria-label="SPARKLES"></i>
-                                </div>
-                            <span class="title">세번째 공지: seonpark 메롱메롱!!</span>
-                            </div>
-                            <span class="date">2020-08-30</span>
-                        </li>
-                        <li>
-                            <div class="tooltip">
-                                <div class="tooltip-content">
-                                    <i class="em em-sparkles" aria-role="presentation" aria-label="SPARKLES"></i>
-                                </div>
-                            <span class="title">네번째 공지: seonpark 메롱메롱!!</span>
-                            </div>
-                            <span class="date">2020-08-30</span>
-                        </li>
-                        <li>
-                            <div class="tooltip">
-                                <div class="tooltip-content">
-                                    <i class="em em-sparkles" aria-role="presentation" aria-label="SPARKLES"></i>
-                                </div>
-                            <span class="title">다섯번째 공지: seonpark 메롱메롱!!</span>
-                            </div>
-                            <span class="date">2020-08-30</span>
-                        </li>
-                    </ol>
+        <div id="proposal" class="board">
+          <h2>
+            <i
+              class="em em-scroll"
+              aria-role="presentation"
+              aria-label="SCROLL"
+            ></i>
+            PROPOSAL
+            <i
+              class="em em-scroll"
+              aria-role="presentation"
+              aria-label="SCROLL"
+            ></i>
+          </h2>
+          <hr />
+          <div class="board-list">
+            <ol>
+              <li>
+                <div class="tooltip">
+                  <div class="tooltip-content">
+                    <i
+                      class="em em-sparkles"
+                      aria-role="presentation"
+                      aria-label="SPARKLES"
+                    ></i>
+                  </div>
+                  <span class="title">첫번째 공지: seonpark 메롱메롱!!</span>
                 </div>
-            </div>
-            <div id="job" class="board">
-                <h2>
-                    <i class="em em-rocket" aria-role="presentation" aria-label="ROCKET"></i>
-                    RECRUITMENT
-                    <i class="em em-rocket" aria-role="presentation" aria-label="ROCKET"></i>
-                </h2>
-                <hr>
-                <div class="board-list">
-                    <ol>
-                        <li> 
-                            <div class="tooltip">
-                                <div class="tooltip-content">
-                                    <i class="em em-sparkles" aria-role="presentation" aria-label="SPARKLES"></i>
-                                </div>
-                                <span class="title">첫번째 공지: seonpark 메롱메롱!!</span>
-                            </div>
-                            <span class="date">2020-08-30</span>
-                        </li>
-                        <li>
-                            <div class="tooltip">
-                                <div class="tooltip-content">
-                                    <i class="em em-sparkles" aria-role="presentation" aria-label="SPARKLES"></i>
-                                </div>
-                            <span class="title">두번째 공지: seonpark 메롱메롱!!</span>
-                            </div>
-                            <span class="date">2020-08-30</span>
-                        </li>
-                        <li>
-                            <div class="tooltip">
-                                <div class="tooltip-content">
-                                    <i class="em em-sparkles" aria-role="presentation" aria-label="SPARKLES"></i>
-                                </div>
-                            <span class="title">세번째 공지: seonpark 메롱메롱!!</span>
-                            </div>
-                            <span class="date">2020-08-30</span>
-                        </li>
-                        <li>
-                            <div class="tooltip">
-                                <div class="tooltip-content">
-                                    <i class="em em-sparkles" aria-role="presentation" aria-label="SPARKLES"></i>
-                                </div>
-                            <span class="title">네번째 공지: seonpark 메롱메롱!!</span>
-                            </div>
-                            <span class="date">2020-08-30</span>
-                        </li>
-                        <li>
-                            <div class="tooltip">
-                                <div class="tooltip-content">
-                                    <i class="em em-sparkles" aria-role="presentation" aria-label="SPARKLES"></i>
-                                </div>
-                            <span class="title">다섯번째 공지: seonpark 메롱메롱!!</span>
-                            </div>
-                            <span class="date">2020-08-30</span>
-                        </li>
-                    </ol>
+                <span class="date">2020-08-30</span>
+              </li>
+              <li>
+                <div class="tooltip">
+                  <div class="tooltip-content">
+                    <i
+                      class="em em-sparkles"
+                      aria-role="presentation"
+                      aria-label="SPARKLES"
+                    ></i>
+                  </div>
+                  <span class="title">두번째 공지: seonpark 메롱메롱!!</span>
                 </div>
-            </div>
+                <span class="date">2020-08-30</span>
+              </li>
+              <li>
+                <div class="tooltip">
+                  <div class="tooltip-content">
+                    <i
+                      class="em em-sparkles"
+                      aria-role="presentation"
+                      aria-label="SPARKLES"
+                    ></i>
+                  </div>
+                  <span class="title">세번째 공지: seonpark 메롱메롱!!</span>
+                </div>
+                <span class="date">2020-08-30</span>
+              </li>
+              <li>
+                <div class="tooltip">
+                  <div class="tooltip-content">
+                    <i
+                      class="em em-sparkles"
+                      aria-role="presentation"
+                      aria-label="SPARKLES"
+                    ></i>
+                  </div>
+                  <span class="title">네번째 공지: seonpark 메롱메롱!!</span>
+                </div>
+                <span class="date">2020-08-30</span>
+              </li>
+              <li>
+                <div class="tooltip">
+                  <div class="tooltip-content">
+                    <i
+                      class="em em-sparkles"
+                      aria-role="presentation"
+                      aria-label="SPARKLES"
+                    ></i>
+                  </div>
+                  <span class="title"
+                    >다섯번째 공dsfddfwfewfewfefewe지: seonpark 메롱메롱!!</span
+                  >
+                </div>
+                <span class="date">2020-08-30</span>
+              </li>
+            </ol>
+          </div>
         </div>
-        
-        <div class="board-wrap">
-            <div id="free" class="board">
-                <h2>
-                    <i class="em em-space_invader" aria-role="presentation" aria-label="ALIEN MONSTER"></i>
-                    FREE
-                    <i class="em em-space_invader" aria-role="presentation" aria-label="ALIEN MONSTER"></i>
-                </h2>
-                <hr>
-                <div class="board-list">
-                    <ol>
-                        <li> 
-                            <div class="tooltip">
-                                <div class="tooltip-content">
-                                    <i class="em em-sparkles" aria-role="presentation" aria-label="SPARKLES"></i>
-                                </div>
-                                <span class="title">첫번째 공지: seonpark 메롱메롱!!</span>
-                            </div>
-                            <span class="date">2020-08-30</span>
-                        </li>
-                        <li>
-                            <div class="tooltip">
-                                <div class="tooltip-content">
-                                    <i class="em em-sparkles" aria-role="presentation" aria-label="SPARKLES"></i>
-                                </div>
-                            <span class="title">두번째 공지: seonpark 메롱메롱!!</span>
-                            </div>
-                            <span class="date">2020-08-30</span>
-                        </li>
-                        <li>
-                            <div class="tooltip">
-                                <div class="tooltip-content">
-                                    <i class="em em-sparkles" aria-role="presentation" aria-label="SPARKLES"></i>
-                                </div>
-                            <span class="title">세번째 공지: seonpark 메롱메롱!!</span>
-                            </div>
-                            <span class="date">2020-08-30</span>
-                        </li>
-                        <li>
-                            <div class="tooltip">
-                                <div class="tooltip-content">
-                                    <i class="em em-sparkles" aria-role="presentation" aria-label="SPARKLES"></i>
-                                </div>
-                            <span class="title">네번째 공지: seonpark 메롱메롱!!</span>
-                            </div>
-                            <span class="date">2020-08-30</span>
-                        </li>
-                        <li>
-                            <div class="tooltip">
-                                <div class="tooltip-content">
-                                    <i class="em em-sparkles" aria-role="presentation" aria-label="SPARKLES"></i>
-                                </div>
-                            <span class="title">다섯번째 공지: seonpark 메롱메롱!!</span>
-                            </div>
-                            <span class="date">2020-08-30</span>
-                        </li>
-                    </ol>
+      </div>
+
+      <div class="board-wrap">
+        <div id="game" class="board">
+          <h2>
+            <i
+              class="em em-joystick"
+              aria-role="presentation"
+              aria-label=""
+            ></i>
+            GAME
+            <i
+              class="em em-joystick"
+              aria-role="presentation"
+              aria-label=""
+            ></i>
+          </h2>
+          <hr />
+          <div class="board-list">
+            <ol>
+              <li>
+                <div class="tooltip">
+                  <div class="tooltip-content">
+                    <i
+                      class="em em-sparkles"
+                      aria-role="presentation"
+                      aria-label="SPARKLES"
+                    ></i>
+                  </div>
+                  <span class="title">첫번째 공지: seonpark 메롱메롱!!</span>
                 </div>
-            </div>
-            <div id="qna" class="board">
-                <h2>
-                    <i class="em em-computer" aria-role="presentation" aria-label="PERSONAL COMPUTER"></i>
-                    QnA
-                    <i class="em em-computer" aria-role="presentation" aria-label="PERSONAL COMPUTER"></i>
-                </h2>
-                <hr>
-                <div class="board-list">
-                    <ol>
-                        <li> 
-                            <div class="tooltip">
-                                <div class="tooltip-content">
-                                    <i class="em em-sparkles" aria-role="presentation" aria-label="SPARKLES"></i>
-                                </div>
-                                <span class="title">첫번째 공지: seonpark 메롱메롱!!</span>
-                            </div>
-                            <span class="date">2020-08-30</span>
-                        </li>
-                        <li>
-                            <div class="tooltip">
-                                <div class="tooltip-content">
-                                    <i class="em em-sparkles" aria-role="presentation" aria-label="SPARKLES"></i>
-                                </div>
-                            <span class="title">두번째 공지: seonpark 메롱메롱!!</span>
-                            </div>
-                            <span class="date">2020-08-30</span>
-                        </li>
-                        <li>
-                            <div class="tooltip">
-                                <div class="tooltip-content">
-                                    <i class="em em-sparkles" aria-role="presentation" aria-label="SPARKLES"></i>
-                                </div>
-                            <span class="title">세번째 공지: seonpark 메롱메롱!!</span>
-                            </div>
-                            <span class="date">2020-08-30</span>
-                        </li>
-                        <li>
-                            <div class="tooltip">
-                                <div class="tooltip-content">
-                                    <i class="em em-sparkles" aria-role="presentation" aria-label="SPARKLES"></i>
-                                </div>
-                            <span class="title">네번째 공지: seonpark 메롱메롱!!</span>
-                            </div>
-                            <span class="date">2020-08-30</span>
-                        </li>
-                        <li>
-                            <div class="tooltip">
-                                <div class="tooltip-content">
-                                    <i class="em em-sparkles" aria-role="presentation" aria-label="SPARKLES"></i>
-                                </div>
-                            <span class="title">다섯번째 공지: seonpark 메롱메롱!!</span>
-                            </div>
-                            <span class="date">2020-08-30</span>
-                        </li>
-                    </ol>
+                <span class="date">2020-08-30</span>
+              </li>
+              <li>
+                <div class="tooltip">
+                  <div class="tooltip-content">
+                    <i
+                      class="em em-sparkles"
+                      aria-role="presentation"
+                      aria-label="SPARKLES"
+                    ></i>
+                  </div>
+                  <span class="title">두번째 공지: seonpark 메롱메롱!!</span>
                 </div>
+                <span class="date">2020-08-30</span>
+              </li>
+              <li>
+                <div class="tooltip">
+                  <div class="tooltip-content">
+                    <i
+                      class="em em-sparkles"
+                      aria-role="presentation"
+                      aria-label="SPARKLES"
+                    ></i>
+                  </div>
+                  <span class="title">세번째 공지: seonpark 메롱메롱!!</span>
                 </div>
-            </div>
+                <span class="date">2020-08-30</span>
+              </li>
+              <li>
+                <div class="tooltip">
+                  <div class="tooltip-content">
+                    <i
+                      class="em em-sparkles"
+                      aria-role="presentation"
+                      aria-label="SPARKLES"
+                    ></i>
+                  </div>
+                  <span class="title">네번째 공지: seonpark 메롱메롱!!</span>
+                </div>
+                <span class="date">2020-08-30</span>
+              </li>
+              <li>
+                <div class="tooltip">
+                  <div class="tooltip-content">
+                    <i
+                      class="em em-sparkles"
+                      aria-role="presentation"
+                      aria-label="SPARKLES"
+                    ></i>
+                  </div>
+                  <span class="title">다섯번째 공지: seonpark 메롱메롱!!</span>
+                </div>
+                <span class="date">2020-08-30</span>
+              </li>
+            </ol>
+          </div>
         </div>
+        <div id="job" class="board">
+          <h2>
+            <i
+              class="em em-rocket"
+              aria-role="presentation"
+              aria-label="ROCKET"
+            ></i>
+            RECRUITMENT
+            <i
+              class="em em-rocket"
+              aria-role="presentation"
+              aria-label="ROCKET"
+            ></i>
+          </h2>
+          <hr />
+          <div class="board-list">
+            <ol>
+              <li>
+                <div class="tooltip">
+                  <div class="tooltip-content">
+                    <i
+                      class="em em-sparkles"
+                      aria-role="presentation"
+                      aria-label="SPARKLES"
+                    ></i>
+                  </div>
+                  <span class="title">첫번째 공지: seonpark 메롱메롱!!</span>
+                </div>
+                <span class="date">2020-08-30</span>
+              </li>
+              <li>
+                <div class="tooltip">
+                  <div class="tooltip-content">
+                    <i
+                      class="em em-sparkles"
+                      aria-role="presentation"
+                      aria-label="SPARKLES"
+                    ></i>
+                  </div>
+                  <span class="title">두번째 공지: seonpark 메롱메롱!!</span>
+                </div>
+                <span class="date">2020-08-30</span>
+              </li>
+              <li>
+                <div class="tooltip">
+                  <div class="tooltip-content">
+                    <i
+                      class="em em-sparkles"
+                      aria-role="presentation"
+                      aria-label="SPARKLES"
+                    ></i>
+                  </div>
+                  <span class="title">세번째 공지: seonpark 메롱메롱!!</span>
+                </div>
+                <span class="date">2020-08-30</span>
+              </li>
+              <li>
+                <div class="tooltip">
+                  <div class="tooltip-content">
+                    <i
+                      class="em em-sparkles"
+                      aria-role="presentation"
+                      aria-label="SPARKLES"
+                    ></i>
+                  </div>
+                  <span class="title">네번째 공지: seonpark 메롱메롱!!</span>
+                </div>
+                <span class="date">2020-08-30</span>
+              </li>
+              <li>
+                <div class="tooltip">
+                  <div class="tooltip-content">
+                    <i
+                      class="em em-sparkles"
+                      aria-role="presentation"
+                      aria-label="SPARKLES"
+                    ></i>
+                  </div>
+                  <span class="title">다섯번째 공지: seonpark 메롱메롱!!</span>
+                </div>
+                <span class="date">2020-08-30</span>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      <div class="board-wrap">
+        <div id="free" class="board">
+          <h2>
+            <i
+              class="em em-space_invader"
+              aria-role="presentation"
+              aria-label="ALIEN MONSTER"
+            ></i>
+            FREE
+            <i
+              class="em em-space_invader"
+              aria-role="presentation"
+              aria-label="ALIEN MONSTER"
+            ></i>
+          </h2>
+          <hr />
+          <div class="board-list">
+            <ol>
+              <li>
+                <div class="tooltip">
+                  <div class="tooltip-content">
+                    <i
+                      class="em em-sparkles"
+                      aria-role="presentation"
+                      aria-label="SPARKLES"
+                    ></i>
+                  </div>
+                  <span class="title">첫번째 공지: seonpark 메롱메롱!!</span>
+                </div>
+                <span class="date">2020-08-30</span>
+              </li>
+              <li>
+                <div class="tooltip">
+                  <div class="tooltip-content">
+                    <i
+                      class="em em-sparkles"
+                      aria-role="presentation"
+                      aria-label="SPARKLES"
+                    ></i>
+                  </div>
+                  <span class="title">두번째 공지: seonpark 메롱메롱!!</span>
+                </div>
+                <span class="date">2020-08-30</span>
+              </li>
+              <li>
+                <div class="tooltip">
+                  <div class="tooltip-content">
+                    <i
+                      class="em em-sparkles"
+                      aria-role="presentation"
+                      aria-label="SPARKLES"
+                    ></i>
+                  </div>
+                  <span class="title">세번째 공지: seonpark 메롱메롱!!</span>
+                </div>
+                <span class="date">2020-08-30</span>
+              </li>
+              <li>
+                <div class="tooltip">
+                  <div class="tooltip-content">
+                    <i
+                      class="em em-sparkles"
+                      aria-role="presentation"
+                      aria-label="SPARKLES"
+                    ></i>
+                  </div>
+                  <span class="title">네번째 공지: seonpark 메롱메롱!!</span>
+                </div>
+                <span class="date">2020-08-30</span>
+              </li>
+              <li>
+                <div class="tooltip">
+                  <div class="tooltip-content">
+                    <i
+                      class="em em-sparkles"
+                      aria-role="presentation"
+                      aria-label="SPARKLES"
+                    ></i>
+                  </div>
+                  <span class="title">다섯번째 공지: seonpark 메롱메롱!!</span>
+                </div>
+                <span class="date">2020-08-30</span>
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div id="qna" class="board">
+          <h2>
+            <i
+              class="em em-computer"
+              aria-role="presentation"
+              aria-label="PERSONAL COMPUTER"
+            ></i>
+            QnA
+            <i
+              class="em em-computer"
+              aria-role="presentation"
+              aria-label="PERSONAL COMPUTER"
+            ></i>
+          </h2>
+          <hr />
+          <div class="board-list">
+            <ol>
+              <li>
+                <div class="tooltip">
+                  <div class="tooltip-content">
+                    <i
+                      class="em em-sparkles"
+                      aria-role="presentation"
+                      aria-label="SPARKLES"
+                    ></i>
+                  </div>
+                  <span class="title">첫번째 공지: seonpark 메롱메롱!!</span>
+                </div>
+                <span class="date">2020-08-30</span>
+              </li>
+              <li>
+                <div class="tooltip">
+                  <div class="tooltip-content">
+                    <i
+                      class="em em-sparkles"
+                      aria-role="presentation"
+                      aria-label="SPARKLES"
+                    ></i>
+                  </div>
+                  <span class="title">두번째 공지: seonpark 메롱메롱!!</span>
+                </div>
+                <span class="date">2020-08-30</span>
+              </li>
+              <li>
+                <div class="tooltip">
+                  <div class="tooltip-content">
+                    <i
+                      class="em em-sparkles"
+                      aria-role="presentation"
+                      aria-label="SPARKLES"
+                    ></i>
+                  </div>
+                  <span class="title">세번째 공지: seonpark 메롱메롱!!</span>
+                </div>
+                <span class="date">2020-08-30</span>
+              </li>
+              <li>
+                <div class="tooltip">
+                  <div class="tooltip-content">
+                    <i
+                      class="em em-sparkles"
+                      aria-role="presentation"
+                      aria-label="SPARKLES"
+                    ></i>
+                  </div>
+                  <span class="title">네번째 공지: seonpark 메롱메롱!!</span>
+                </div>
+                <span class="date">2020-08-30</span>
+              </li>
+              <li>
+                <div class="tooltip">
+                  <div class="tooltip-content">
+                    <i
+                      class="em em-sparkles"
+                      aria-role="presentation"
+                      aria-label="SPARKLES"
+                    ></i>
+                  </div>
+                  <span class="title">다섯번째 공지: seonpark 메롱메롱!!</span>
+                </div>
+                <span class="date">2020-08-30</span>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
     </section>
     <footer>
-        <h4>&#10094; 42SEOUL_DEVELOPERS &#10095;</h4>
-        <a href="github">insert(coin)</a><br>
-        <p><a href="github">sooyoon</a> email@address<br>
-        <a href="github">seonpark </a> email@lsaddress</p>
+      <h4>&#10094; 42SEOUL_DEVELOPERS &#10095;</h4>
+      <a href="github">insert(coin)</a><br />
+      <p>
+        <a href="github">sooyoon</a> email@address<br />
+        <a href="github">seonpark </a> email@lsaddress
+      </p>
     </footer>
 
     <script>
-        var slideIndex = 1;
-        showDivs(slideIndex);
-        
-        function plusDivs(n) {
-          showDivs(slideIndex += n);
+      var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+        showDivs((slideIndex += n));
+      }
+
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("slide-image");
+        if (n > x.length) {
+          slideIndex = 1;
         }
-        
-        function showDivs(n) {
-          var i;
-          var x = document.getElementsByClassName("slide-image");
-          if (n > x.length) {slideIndex = 1}
-          if (n < 1) {slideIndex = x.length}
-          for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";  
-          }
-          x[slideIndex-1].style.display = "block";  
+        if (n < 1) {
+          slideIndex = x.length;
         }
-        </script>
-</body>
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        x[slideIndex - 1].style.display = "block";
+      }
+    </script>
+  </body>
 </html>
