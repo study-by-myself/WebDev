@@ -1,0 +1,28 @@
+section#slide {
+  max-width: 1024px;
+  position: relative;
+}
+
+section#slide .button {
+  background-color: black;
+  color: cadetblue;
+  background: black;
+  font-size: 30px;
+  width: 25px;
+  height: 100%;
+  position: absolute;
+  opacity: 50%;
+  top: 0;
+}
+
+section#slide .button-left {
+}
+
+section#slide .button-right {
+  right: 0;
+}
+
+section#slide .slide-images {
+  border-bottom: 3px solid cadetblue;
+  height: 40%;
+}

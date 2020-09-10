@@ -3,6 +3,19 @@
   padding: 0;
 }
 
+img {
+  width: 100%;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+h4 {
+  color: cadetblue;
+}
+
 body {
   background-color: black;
   color: white;
@@ -45,7 +58,7 @@ header #logo #logo-42seoul {
   height: 100%;
 }
 
-#icon-menu {
+header #icon-menu {
   display: none;
   width: 25px;
   height: 25px;
@@ -56,51 +69,20 @@ header #logo #logo-42seoul {
   border-radius: 5px;
 }
 
-#icon-menu > div {
+header #icon-menu > div {
   border: 1px solid lightcyan;
   margin: 5px 3px;
   border-radius: 5px;
 }
 
-img {
-  width: 100%;
-}
+/* section */
 
-section#slide {
-  max-width: 1024px;
-  position: relative;
-}
-
-.slide-images {
-  border-bottom: 3px solid cadetblue;
-  height: 40%;
-}
-
-.button {
-  background-color: black;
-  color: cadetblue;
-  background: black;
-  font-size: 30px;
-  width: 25px;
-  height: 100%;
-  position: absolute;
-  opacity: 50%;
-  top: 0;
-}
-
-.button-left {
-}
-
-.button-right {
-  right: 0;
-}
-
-h2 {
+section h2 {
   color: cadetblue;
   margin-bottom: 0px;
 }
 
-hr {
+section hr {
   border-color: aquamarine;
   /* border로 바꾸고 pixel 늘릴 것 */
 }
@@ -109,28 +91,35 @@ section {
   max-width: 1024px;
   justify-content: center;
   margin: 0 auto;
-}
-
-section#content {
   padding: 3%;
 }
 
-section#content .board-wrap {
+section .board-wrap {
   display: flex;
   justify-content: space-between;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-section#content .board-wrap .board {
+section .board-wrap .board {
   width: 46%;
+  margin-bottom: 20px;
 }
 
-section#content .board-wrap .board ol.board-list li {
+section .board-wrap .board hr {
+  margin: 10px 0;
+}
+
+section .board-wrap .board ol.board-list {
   width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
-li {
+section .board-wrap .board ol.board-list li {
+  width: 100%;
+  padding: 2px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -138,7 +127,7 @@ li {
   position: relative;
 }
 
-.title {
+section .board-wrap .board ol.board-list li p.title {
   flex: 1;
   display: inline-block;
   overflow: hidden;
@@ -147,38 +136,48 @@ li {
   width: 80%;
 }
 
-.title:hover {
+section .board-wrap .board ol.board-list li:hover p.title {
   color: cadetblue;
-  transition: text-indent 10s;
-  text-indent: -500px;
+  transition: color 0.3s;
 }
 
-.tooltip {
-  position: relative;
+section .board-wrap .board ol.board-list li div.tooltip {
+  position: absolute;
   display: inline-block;
+  transition: opacity 0.3s;
+  opacity: 0;
+  left: 0;
 }
 
-.tooltip .tooltip-content {
+section .board-wrap .board ol.board-list li:hover div.tooltip {
+  opacity: 1;
+}
+
+section .board-wrap .board ol.board-list li div.tooltip .tooltip-content {
   visibility: hidden;
   padding: 0;
-  position: absolute;
   z-index: 1;
   top: -5px;
   right: 105%;
 }
-.tooltip:hover .tooltip-content {
-  visibility: visible;
+
+section .board-wrap .board ol.board-list li div.content {
+  display: flex;
+  flex: 1;
+  padding-left: 25px;
+  overflow: hidden;
 }
 
-.date {
-  position: absolute;
-  right: 0;
+section .board-wrap .board ol.board-list li div.content p.title {
+  flex: 1;
+}
+
+section .board-wrap .board ol.board-list li div.content span.date {
   color: grey;
+  padding: 0 3px;
 }
 
-h4 {
-  color: cadetblue;
-}
+/* footer */
 
 footer {
   text-align: center;
