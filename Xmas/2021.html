@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HAPPY NEW YEAR!!!</title>
+	<link rel="shortcut icon" href="https://www.favicon.cc/logo3d/87910.png">
+	<meta property="og:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5M5QC2rAPmMu5d2zO_oy3ugtIPndG3ApgJw&usqp=CAU">
+	<meta property="og:title" content="수지니의 카드">
+	<meta property="og:description" content="2021을 맞이하며">
+	<script src="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/xmas/snow.js"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Gugi&display=swap" rel="stylesheet">
+	<style>
+		* {
+			font-family: 'East Sea Dokdo', cursive;
+		}
+
+		body {
+			background-color: cornflowerblue;
+		}
+
+		.envelope {
+			/* background-color: black; */
+			width: 200px;
+			height: 200px;
+			background-image: url('https://pngimg.com/uploads/envelope/envelope_PNG18366.png');
+			background-size: cover;
+			background-position: center;
+			margin: 200px auto 0 auto;
+			cursor: pointer;
+
+		}
+
+		.envelope-msg {
+			color: white;
+			text-align: center;
+
+		}
+
+		.letter-close {
+			display: block;
+		}
+
+		.letter-open {
+			display: none;
+		}
+
+		.rtan {
+			background-color: white;
+			width: 200px;
+			height: 200px;
+
+			background-image: url('https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/xmas/Webp.net-gifmaker+(1).gif');
+			background-size: cover;
+			background-position: center;
+			margin: 100px auto 0 auto;
+			border-radius: 100px;
+			border: 5px solid white;
+			box-shadow: 0px 0px 10px 0px white;
+
+		}
+
+		h1 {
+			text-align: center;
+			color: white;
+			margin: 30px auto;
+		}
+
+		.msgbox {
+			background-color: ivory;
+			width: 400px;
+			margin: auto;
+			color: navy;
+			padding: 30px;
+			font-size: 20px;
+			line-height: 30px;
+			box-shadow: 0px 0px 10px 0px white;
+		}
+
+		p {
+			text-align: right;
+			margin: 0;
+		}
+
+		@media screen and (max-width: 760px) {
+			.msgbox {
+				width: 300px;
+				padding: 20px;
+			}
+
+			.rtan {
+				width: 150px;
+				height: 150px;
+				margin: 70px auto 0 auto;
+			}
+
+			h1 {
+				font-size: 28px;
+			}
+
+			.envelope {
+				margin: 150px auto 0 auto;
+			}
+
+		}
+
+	</style>
+	<script>
+		function open_letter() {
+			document.getElementsByClassName("letter-close")[0].style.display = 'none'
+			document.getElementsByClassName("letter-open")[0].style.display = 'block'
+		}
+
+		function go_rtan() {
+			alert('앗, 어떻게 알았지?');
+			window.location.href="https://github.com/blingblin-g"
+		}
+	</script>
+</head>
+
+<body>
+	<div class="letter-close">
+		<div class="envelope" onclick="open_letter()">
+		</div>
+		<h2 class="envelope-msg">Open it!!!</h2>
+
+	</div>
+
+	<div class="letter-open">
+		<div class="rtan" onclick="go_rtan()">
+	
+		</div>
+	
+		<h1>
+			2021년도 잘 부탁합니다~
+		</h1>
+		<div class="msgbox">
+			친구들에게. <br />
+			올해 이런저런 일이 많았는데 <br />
+			너희 덕분에 하나도 힘들지 않았어 <br />
+			내년에도 우리 우정 변치말자 <br />
+			연말에 다 같이 못 봐서 아쉽다 <br />
+			<p> 2021. 01. 01 수진이가</p>
+		</div>
+
+	</div>
+
+
+</body>
+
+</html>
